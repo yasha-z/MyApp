@@ -1,6 +1,6 @@
 namespace Session1
 {
-    // TASK 2.5 — Custom exception for missing books
+    // TASK 2.5 xception for missing books
     public class BookNotFoundException : Exception
     {
         public int BookId { get; }

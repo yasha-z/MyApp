@@ -6,7 +6,11 @@ namespace Session1
     // TASK 2.2 — Service methods are async; in-memory work uses Task.FromResult / Task.CompletedTask
     public class BookService : IBookService
     {
-        public Task<List<Book>> GetAllAsync()
+        //these funcs are not actually doing asynchronous work yet.. they r js using async-style
+        //  (as mentioned in the task)
+        // return types (Task and Task<T>) so they can easily be replaced with real database calls later
+        //  (which will be asynchronous) and we will use the word await when calling them
+        public Task<List<Book>> GetAllAsync()// i will return list of books when i am done
         {
             return Task.FromResult(InMemoryStore.Books);
         }
@@ -25,7 +29,8 @@ namespace Session1
             return Task.FromResult(book);
         }
 
-        public Task CreateAsync(Book book)
+        public Task CreateAsync(Book book)//means im doing some work and will let 
+        //you know when im finished
         {
             InMemoryStore.Books.Add(book);
             return Task.CompletedTask;

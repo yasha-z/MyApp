@@ -452,11 +452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\test project\\MyApp\\MyApp.csproj",
+      "projectUniqueName": "D:\\Session tasks\\MyApp\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "D:\\test project\\MyApp\\MyApp.csproj",
+      "projectPath": "D:\\Session tasks\\MyApp\\MyApp.csproj",
       "packagesPath": "C:\\Users\\Yasha Ali\\.nuget\\packages\\",
-      "outputPath": "D:\\test project\\MyApp\\obj\\",
+      "outputPath": "D:\\Session tasks\\MyApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yasha Ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
